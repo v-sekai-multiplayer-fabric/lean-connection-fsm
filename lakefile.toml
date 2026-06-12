@@ -1,0 +1,11 @@
+name = "connection_fsm"
+defaultTargets = ["ConnectionFSM"]
+[[require]]
+name = "Plausible"
+git = "https://github.com/leanprover-community/plausible"
+rev = "v4.30.0"
+[[lean_lib]]
+name = "ConnectionFSM"
+[[lean_exe]]
+name = "fsm_demo"
+root = "Main"
